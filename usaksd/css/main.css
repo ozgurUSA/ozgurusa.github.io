@@ -75,7 +75,7 @@ html, body {
 
 body {
     background: #111111;
-    font-family: "lora-regular", serif;
+    font-family: "montserrat-light", sans-serif;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
@@ -1857,6 +1857,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 3rem;
     padding-left: 2.5rem;
 }
+
 
 .home-content__scroll a::before {
     border-bottom: 2px solid #eb9f0f;
