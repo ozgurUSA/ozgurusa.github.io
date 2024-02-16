@@ -209,7 +209,7 @@
     * ------------------------------------------------------ */
     var clSlickSlider = function() {
 
-        $('.clients').slick({
+        $('.brands').slick({
             arrows: false,
             dots: true,
             infinite: true,
