@@ -31,6 +31,7 @@
  *      ## header logo
  *      ## main navigation 
  *      ## mobile menu toggle 
+ *		## language button
  *  # home 
  *      ## home content
  *      ## home social 
@@ -1739,6 +1740,34 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     bottom: -9px;
 }
 
+/* #language button */
+.language-button {
+    display: inline-block;
+    width: 20px; /* Genişliği ayarlayabilirsiniz */
+    height: 20px; /* Yüksekliği ayarlayabilirsiniz */
+    border: 1px solid #eb9f0f; /* Dış çizgi rengi */
+    border-radius: 50%; /* Tamamen yuvarlak hale getirir */
+    overflow: hidden; /* Resim dışında kalan kısmı gizler */
+    margin-right: 10px;
+    position: relative; /* Görseli pozisyonlamak için */
+    transition: all 0.3s ease-in-out;
+}
+
+.language-button img {
+    width: 100%; /* Resmi butona sığacak şekilde genişletir */
+    height: 100%; /* Resmi butona sığacak şekilde uzatır */
+    object-fit: cover; /* Resmi butona sığacak şekilde ölçekler */
+    position: absolute; /* Görseli buton içinde pozisyonlamak için */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.language-button:focus {
+    background-color: #0C0C0C;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -3413,7 +3442,7 @@ footer .row {
     border: none;
     width: 85px;
     height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
+    background: url("../images/logo-footer.svg") no-repeat center;
     background-size: 85px 28px;
     font: 0/0 a;
     text-shadow: none;

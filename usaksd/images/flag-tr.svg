@@ -1,5 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 -30000 90000 60000">
-	<title>Flag of Turkey</title>
-	<path fill="#e30a17" d="m0-30000h90000v60000H0z"/>
-	<path fill="#fff" d="m41750 0 13568-4408-8386 11541V-7133l8386 11541zm925 8021a15000 15000 0 1 1 0-16042 12000 12000 0 1 0 0 16042z"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 600" style="enable-background:new 0 0 1000 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#EC1C24;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g>
+	<path class="st0" d="M512.2-12c178.5,0,323.2,139.7,323.2,312S690.7,612,512.2,612S189,472.3,189,300C189,127.7,333.7-12,512.2-12
+		L512.2-12z"/>
+	<path class="st1" d="M470.3,113.2c50.3,0,95.9,19.3,129.8,51c-22.8-13.8-49.3-21.8-77.6-21.8C438,142.3,369.6,213,369.6,300
+		S438,457.7,522.5,457.7c28.3,0,54.9-8,77.6-21.8c-33.8,31.6-79.6,51-129.8,51c-104.4,0-189.1-83.6-189.1-186.8
+		S365.8,113.2,470.3,113.2L470.3,113.2z"/>
+	<polygon class="st1" points="674.8,242.3 690.9,286.5 743.2,286.4 700.8,313.6 717.1,357.7 674.8,330.4 632.5,357.7 648.8,313.6 
+		606.5,286.4 658.8,286.5 	"/>
+</g>
 </svg>
