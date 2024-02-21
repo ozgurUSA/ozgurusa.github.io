@@ -116,7 +116,7 @@
                     $captionText = $.trim($caption.html()),
                     $href = $thumbLink.attr('href'),
                     $size = $thumbLink.data('size').split('x'),
-                    $width  = $size[0],
+                    $width  = $size[1],
                     $height = $size[1];
          
                 var item = {
@@ -214,7 +214,7 @@
             dots: true,
             infinite: true,
             slidesToShow: 6,
-            slidesToScroll: 2,
+            slidesToScroll: 6,
             //autoplay: true,
             pauseOnFocus: false,
             autoplaySpeed: 1000,
@@ -222,20 +222,22 @@
                 {
                     breakpoint: 1200,
                     settings: {
-                        slidesToShow: 5
+                        slidesToShow: 5,
+						slidesToScroll: 5
                     }
                 },
                 {
                     breakpoint: 1000,
                     settings: {
-                        slidesToShow: 4
+                        slidesToShow: 4,
+						slidesToScroll: 4
                     }
                 },
                 {
                     breakpoint: 800,
                     settings: {
                         slidesToShow: 3,
-                        slidesToScroll: 2
+                        slidesToScroll: 3
                     }
                 },
                 {
@@ -454,7 +456,7 @@
         clPreloader();
         clMenuOnScrolldown();
         clOffCanvas();
-        /*clPhotoswipe();*/
+        clPhotoswipe();
         clStatCount();
         clMasonryFolio();
         clSlickSlider();

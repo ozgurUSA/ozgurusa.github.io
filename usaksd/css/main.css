@@ -1571,6 +1571,34 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
 }
 
+/**/
+
+.header-nav__translate {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.header-nav__translate li {
+    margin-right: 12px;
+    padding-left: 0;
+    display: inline-block;
+}
+
+.header-nav__translate li a {
+    color: rgba(255, 255, 255, 0.15);
+}
+
+.header-nav__translate li a:hover,
+.header-nav__translate li a:focus {
+    color: white;
+}
+
+.header-nav__translate li:last-child {
+    margin: 0;
+}
+
 .header-nav__close {
     display: block;
     height: 30px;
@@ -2537,7 +2565,7 @@ html.no-csstransitions .home-content__main {
     vertical-align: bottom;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    width: 100%;
+	width: 100%;
 }
 
 .item-folio__thumb a {
@@ -2793,7 +2821,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .brands-testimonials .testimonials p {
-    font-family: "lora-regular", serif;
+    font-family: "montserrat-extralight", sans-serif;
     font-size: 3rem;
     line-height: 1.8;
     color: #555555;
@@ -3350,7 +3378,7 @@ footer h4 {
 }
 
 footer a {
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 footer a:hover, footer a:focus, footer a:active {
