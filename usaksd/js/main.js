@@ -210,13 +210,13 @@
 
         $('.brands').slick({
             arrows: false,
-            dots: true,
+            dots: false,
             infinite: true,
             slidesToShow: 6,
             slidesToScroll: 6,
-            //autoplay: true,
-            pauseOnFocus: false,
-            autoplaySpeed: 1000,
+            autoplay: true,
+            pauseOnFocus: true,
+            autoplaySpeed: 1500,
             responsive: [
                 {
                     breakpoint: 1200,
