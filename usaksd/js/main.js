@@ -114,13 +114,11 @@
                     $caption = $folio.find('.item-folio__caption'),
                     $titleText = '<h4>' + $.trim($title.html()) + '</h4>',
                     $captionText = $.trim($caption.html()),
-                    $href = $thumbLink.attr('href'),
                     $size = $thumbLink.data('size').split('x'),
                     $width  = $size[1],
-                    $height = $size[1];
+                    $height = $size[0];
          
                 var item = {
-                    src  : $href,
                     w    : $width,
                     h    : $height
                 }
