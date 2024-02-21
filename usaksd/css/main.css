@@ -2772,8 +2772,7 @@ html.no-csstransitions .home-content__main {
  * ## slider
  * ------------------------------------------------------------------- */
 .brands-outer {
-    margin-top: 3.6rem;
-    padding-bottom: 3.6rem;
+    padding-bottom: 9rem;
     text-align: center;
     position: relative;
 }
